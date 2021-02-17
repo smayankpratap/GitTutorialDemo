@@ -1,1 +1,18 @@
+# This is how we write comments in .gitignore files.
+
+# A file whose name is mentioned in .gitignore file remains untracked, any
+# change in that file doesn't reflects while running "git status" command. 
+
+# ignores "error.log" file
 error.log
+
+# ignores all files with .log extension
+*.log
+
+# ignores all "dir" named directory(folder)
+dir/ 
+
+# ignores only outer "dir"
+/dir/
+
+# we can also mention path of the file or directory to be ignored
